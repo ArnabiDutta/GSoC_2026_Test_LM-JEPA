@@ -2,6 +2,8 @@
 
 **Contributor:** Arnabi Dutta
 
+[JUPYTER NOTEBOOK](https://github.com/ArnabiDutta/GSoC_2026_Test_LM-JEPA/blob/main/ARNABI_DUTTA_GSoC_2026_Task.ipynb)
+
 **Prerequisite Test:**
 I have completed Tasks for Symbolic AI Projects GSoC 2026 Common Task 1.2, Specific Test 2.5.
 
