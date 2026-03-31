@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Weights and logs
+logs/
+wandb/
+*.pt
+*.pth
+
+# Generated data
+data/processed*/
+*.csv
+*.pkl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
