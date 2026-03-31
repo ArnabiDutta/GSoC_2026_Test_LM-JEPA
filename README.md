@@ -99,3 +99,17 @@ Evaluating Prefix models with SymPy requires a custom stack-based `prefix_to_inf
 | **QCD** | Prefix | 15x | 137 | 87.13% | 93.58% | 79.17% | **79.17%** | 692.37 |
 | **QCD** | Infix | 1x | 141 | 11.20% | 32.29% | 0.00% | **0.00%** | 686.49 |
 | **QCD** | Infix | 15x | 6 | 5.48% | 21.93% | 0.00% | **0.00%** | 696.18 |
+
+### Dataset & Vocabulary Statistics
+
+The table below details the sample distributions and unique vocabulary sizes across all 8 experimental configurations. It explicitly validates that the $15\times$ permutation augmentation expands the training distribution.
+| Physics Model | Notation | Augmentation | Base Samples | Train Size (Aug) | Val Size | Test Size | Unique Vocab Size |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **QED** | Infix | 1x (Baseline) | 360 | 288 | 36 | 36 | 279 |
+| **QED** | Prefix | 1x (Baseline) | 360 | 288 | 36 | 36 | 282 |
+| **QED** | Infix | 15x | 360 | 4,317 | 36 | 36 | 288 |
+| **QED** | Prefix | 15x | 360 | 4,317 | 36 | 36 | 286 |
+| **QCD** | Infix | 1x (Baseline) | 230 | 187 | 23 | 24 | 1,597 |
+| **QCD** | Prefix | 1x (Baseline) | 230 | 187 | 23 | 24 | 1,575 |
+| **QCD** | Infix | 15x | 230 | 2,805 | 23 | 24 | 2,584 |
+| **QCD** | Prefix | 15x | 230 | 2,805 | 23 | 24 | 2,616 |
